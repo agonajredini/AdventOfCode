@@ -2,7 +2,7 @@ left_numbers = []
 right_numbers = []
 difference = []
 
-with open("C:/Users/Life's Good/Desktop/AdventCode/Day1/input.txt") as f:
+with open("Day1\input.txt") as f:
     for line in f:
         parts = line.split()
         

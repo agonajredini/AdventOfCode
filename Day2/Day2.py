@@ -13,7 +13,7 @@ def check_asc_or_desc(lst):
             results.append(False)
     return results
 
-with open("C:/Users/Life's Good/Desktop/AdventCode/Day2/input.txt") as f:
+with open("Day2\input.txt") as f:
     for line in f:
         numbers = list(map(int, line.strip().split()))
         lists.append(numbers)

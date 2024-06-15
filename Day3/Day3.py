@@ -1,6 +1,6 @@
 import re
 memory = ""
-with open("C:/Users/Life's Good/Desktop/AdventCode/Day3/input.txt") as f:
+with open("Day3\input.txt") as f:
     memory = f.read()
 pattern = r'mul\((\d+),(\d+)\)'
 matches = re.findall(pattern, memory)
